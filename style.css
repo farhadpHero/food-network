@@ -73,7 +73,7 @@ section{
 }
 
 .about{
-    height: 500px;
+    height: 400px;
 }
 
 .card img{
@@ -100,6 +100,9 @@ section{
 
   .container {
     padding: 2px 16px;
+  }
+  .services{
+      height: 600px;
   }
 
 .supporter{
