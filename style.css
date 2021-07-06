@@ -72,6 +72,9 @@ section{
     
 }
 
+.about{
+    height: 500px;
+}
 
 .card img{
     width:100%;
@@ -115,6 +118,63 @@ section{
     border-radius: 10px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
 }
+
+
+
+.icons{
+    width: 200px;
+    margin: auto;
+    overflow: hidden;
+}
+.icons ul{
+    margin: 0;
+    padding: 0;
+}
+.icons ul li{
+    list-style-type: none;
+    float: left;
+    margin-right: 40px;
+}
+.icons ul li a{
+    background-image: url('images/icons.png');
+    width: 39px;
+    height: 39px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    border:2px solid orange;
+    border-radius: 50%;
+    background-position: 0 0;
+    transition: 1s;
+}
+
+.icons ul li:last-child{
+    margin-right: 0;
+}
+
+.icons ul li:hover:nth-child(1) a{
+    background-position: 0 -39px;
+}
+.icons ul li:nth-child(2) a{
+    background-position: -78px 0;
+}
+.icons ul li:hover:nth-child(2) a{
+    background-position:-78px -39px ;
+}
+
+.icons ul li:nth-child(3) a{
+    background-position: -156px 0;
+}
+
+.icons ul li:hover:nth-child(3) a{
+    background-position: -156px -39px;
+}
+
+.social-media{
+    height: 100px;
+    text-align: center;
+    color: rgb(248, 149, 28);
+}
+
 
 footer{
     text-align: center;
